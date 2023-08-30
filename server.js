@@ -15,7 +15,7 @@ app.get('/greetings/:name', function(req, res) {
 })
 
 app.get('/tip', function(req, res) {
-    res.send('<h1>Are you ?</h1>')
+    res.send('<h1>Are you you enjoying your meal?</h1>')
 })
 
 app.get('/tip/:total/:tipPercentage', function(req, res) {
